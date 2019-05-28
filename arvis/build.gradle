@@ -1,7 +1,8 @@
 apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven' //启用Jitpack 插件
 
-group='me.androider' //设置Jitpack发布的Group
+group = 'me.androider' //设置Jitpack发布的Group
+version = '0.0.1'
 
 android {
     compileSdkVersion 28
