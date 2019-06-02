@@ -8,7 +8,10 @@ import android.content.pm.PackageManager;
 import android.text.TextUtils;
 
 /**
+ * 工具类-包管理工具类
+ *
  * created by Androider on 2019/5/27 21:09
+ * @author Androider
  */
 public class PackageManagerUtils {
 
@@ -19,7 +22,6 @@ public class PackageManagerUtils {
     private static PackageManagerUtils instance;
 
     private PackageManager mPackageManager;
-
 
     private PackageManagerUtils(Context context) {
         this.mContext = context;
@@ -40,7 +42,7 @@ public class PackageManagerUtils {
 
     /**
      * 获取包信息
-     * @return
+     * @return  返回Package的信息
      */
     public PackageInfo getPackageInfo() {
         PackageInfo pi = null;
@@ -55,7 +57,7 @@ public class PackageManagerUtils {
 
     /**
      * 获取应用名
-     * @return
+     * @return  返回应用的名称
      */
     public String getApplicatoinLabel() {
         String label = "";
@@ -70,8 +72,8 @@ public class PackageManagerUtils {
 
     /**
      * 判断当前package中是否已经声明了activity
-     * @param activityName
-     * @return
+     * @param activityName  Activity名
+     * @return  boolean
      */
     public boolean isHasActivity(String activityName) {
         if (TextUtils.isEmpty(activityName)) {
@@ -98,7 +100,7 @@ public class PackageManagerUtils {
 
     /**
      * 是否是调试状态
-     * @return
+     * @return boolean
      */
     public boolean isDebug() {
         try {
@@ -114,12 +116,21 @@ public class PackageManagerUtils {
         return PackageManagerUtils.getInstance(context).isDebug();
     }
 
+    /**
+     * 获取应用内标meta-data
+     * @param key           键名
+     * @param defaultValue  默认值
+     * @return
+     */
     public Object getApplicationMetaData(String key, Object defaultValue) {
-//        try {
-//            // TODO: 2019/5/27
-//        } catch (PackageManager.NameNotFoundException e) {
-//            e.printStackTrace();
-//        }
+        try {
+            ApplicationInfo ai = mPackageManager.getApplicationInfo(mContext.getPackageName(),
+                    PackageManager.GET_META_DATA);
+            Object result = ai.metaData.get(key);
+            return ClassUtils.getTypeValue(result);
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
         return null;
     }
 }

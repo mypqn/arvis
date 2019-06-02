@@ -1,9 +1,6 @@
 apply plugin: 'com.android.application'
 
 
-group = 'me.androider' //设置Jitpack发布的Group
-version = '0.0.1'
-
 android {
     compileSdkVersion 28
 

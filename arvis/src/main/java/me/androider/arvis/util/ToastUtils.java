@@ -6,7 +6,10 @@ import android.widget.Toast;
 import me.androider.arvis.R;
 
 /**
+ * 工具类-土司工具类
+ *
  * created by Androider on 2019/5/27 21:06
+ * @author Androider
  */
 public class ToastUtils {
 
@@ -15,13 +18,15 @@ public class ToastUtils {
     private static int gravity;
 
     public static void showDebugShortToast(Context context, String msg) {
-        if (PackageManagerUtils.isDebug(context))
+        if (PackageManagerUtils.isDebug(context)) {
             showShortToast(context, String.format("%s %s", context.getString(R.string.debug_label), msg));
+        }
     }
 
     public static void showDebugLongToast(Context context, String msg) {
-        if (PackageManagerUtils.isDebug(context))
+        if (PackageManagerUtils.isDebug(context)) {
             showLongToast(context, String.format("%s %s", context.getString(R.string.debug_label), msg));
+        }
     }
 
     public static void showShortToast(Context context, String msg) {
@@ -53,8 +58,9 @@ public class ToastUtils {
     }
 
     public static void showToast(Context context, String message, int duration, int gravity, int xOffset, int yOffset) {
-        if (null == message)
+        if (null == message) {
             throw new IllegalArgumentException("请设置要显示的文字内容");
+        }
         if (null == instance) {
             instance = Toast.makeText(context, "", duration);
         } else {
