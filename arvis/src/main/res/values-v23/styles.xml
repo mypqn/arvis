@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 23 theme customizations can go here. -->
+    <style name="NoActionBar" parent="BaseNoActionBar">
+        <!-- 默认false, 和windowDrawsSystemBarBackgrounds冲突, 给false允许设定颜色; true才能将内容顶上状态栏 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <!--false黑色背景, true设定颜色, 不指定颜色则为灰色-->
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <!--<item name="android:statusBarColor">@color/transparent</item>-->
+    </style>
+
+    <!-- 仅作学习 -->
+    <style name="NoActionBar.Light">
+        <!-- 状态栏字体颜色, false为白色, true为黑色 -->
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+    <style name="NoActionBar.Dark">
+        <!-- 状态栏字体颜色, false为白色, true为黑色 -->
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+</resources>

@@ -41,7 +41,6 @@ public class PermissionUtils {
             this.mListener = listener;
         }
         if (!checkPermissions(object, permissions)) {
-            // TODO: 2019/6/2
             new AlertDialog.Builder(getActivity(object)).setMessage(hintMessage)
                     .setPositiveButton("确定", new DialogInterface.OnClickListener() {
                         @Override

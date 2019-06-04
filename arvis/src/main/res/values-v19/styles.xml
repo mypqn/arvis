@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- API 19 theme customizations can go here. -->
+    <style name="NoActionBar" parent="BaseNoActionBar">
+        <!-- 默认false, 19不能设定颜色 -->
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>
