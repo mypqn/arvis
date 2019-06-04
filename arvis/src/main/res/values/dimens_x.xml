@@ -15,6 +15,50 @@
     <dimen name="sp_36">36dp</dimen>
 
 
+    <!-- 字号专用 -->
+    <dimen name="text_size_px_8">4dp</dimen>
+    <dimen name="text_size_px_10">5dp</dimen>
+    <dimen name="text_size_px_12">6dp</dimen>
+    <dimen name="text_size_px_14">7dp</dimen>
+    <dimen name="text_size_px_16">8dp</dimen>
+    <dimen name="text_size_px_18">9dp</dimen>
+    <dimen name="text_size_px_20">10dp</dimen>
+    <dimen name="text_size_px_22">11dp</dimen>
+    <dimen name="text_size_px_24">12dp</dimen>
+    <dimen name="text_size_px_26">13dp</dimen>
+    <dimen name="text_size_px_28">14dp</dimen>
+    <dimen name="text_size_px_30">15dp</dimen>
+    <dimen name="text_size_px_32">16dp</dimen>
+    <dimen name="text_size_px_34">17dp</dimen>
+    <dimen name="text_size_px_36">18dp</dimen>
+    <dimen name="text_size_px_38">19dp</dimen>
+    <dimen name="text_size_px_40">20dp</dimen>
+    <dimen name="text_size_px_42">21dp</dimen>
+    <dimen name="text_size_px_44">22dp</dimen>
+    <dimen name="text_size_px_46">23dp</dimen>
+    <dimen name="text_size_px_48">24dp</dimen>
+    <dimen name="text_size_px_50">25dp</dimen>
+    <dimen name="text_size_px_52">26dp</dimen>
+    <dimen name="text_size_px_54">27dp</dimen>
+    <dimen name="text_size_px_56">28dp</dimen>
+    <dimen name="text_size_px_58">29dp</dimen>
+    <dimen name="text_size_px_60">30dp</dimen>
+    <dimen name="text_size_px_62">31dp</dimen>
+    <dimen name="text_size_px_64">32dp</dimen>
+    <dimen name="text_size_px_66">33dp</dimen>
+    <dimen name="text_size_px_68">34dp</dimen>
+    <dimen name="text_size_px_70">35dp</dimen>
+    <dimen name="text_size_px_72">36dp</dimen>
+    <dimen name="text_size_px_76">38dp</dimen>
+    <dimen name="text_size_px_80">40dp</dimen>
+    <dimen name="text_size_px_84">42dp</dimen>
+    <dimen name="text_size_px_88">44dp</dimen>
+    <dimen name="text_size_px_92">46dp</dimen>
+    <dimen name="text_size_px_96">48dp</dimen>
+    <dimen name="text_size_px_100">50dp</dimen>
+
+
+
     <dimen name="dp_m_7">-7dp</dimen>
     <dimen name="dp_m_12">-12dp</dimen>
     <dimen name="dp_m_60">-60dp</dimen>
