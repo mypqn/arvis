@@ -2,6 +2,7 @@
 <resources>
     <!-- 基本颜色 -->
     <color name="white">#FFFFFFFF</color>
+    <color name="gray_e">#FFEEEEEE</color>
     <color name="gray_d">#FFDDDDDD</color>
     <color name="gray_c">#FFCCCCCC</color>
     <color name="gray_b">#FFBBBBBB</color>
