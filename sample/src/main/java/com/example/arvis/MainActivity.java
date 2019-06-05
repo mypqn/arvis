@@ -1,11 +1,10 @@
 package com.example.arvis;
 
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-import me.androider.arvis.util.ToastUtils;
+import me.androider.arvis.app.BaseAppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends BaseAppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
