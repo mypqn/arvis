@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resource>
+    <paths>
+        <!-- xml文件是唯一设置分享的目录, 不能用代码设置
+        <files-path>    getFilesDir()   /data/data//files 目录
+        <cache-path>    getCacheDir()   /data/data//cache 目录
+        <external-path> Environment.getExternalStorageDirectory()   SDCard/Android/data/应用包名/files/ 目录
+        <external-files-path>   Context.getExternalFilesDir(String) Context.getExternalFilesDir(null)
+        <external-cache-path>   Context.getExternalCacheDir()
+
+        path: 代表设置的目录下一级目录, 例: <external-path path="images/" />, 则整个目录为Environment.getExternalStorageDirectory() + "/images/"
+        name: 代表定义在Content中的字段, 例: name="myimages", 如果请求的内容的文件名为default_image.jpg,
+        则返回一个URI: content://com.example.myapp.fileprivider/myimages/default_image.jpg
+
+        当path为空时, 则全部都可以访问 -->
+
+        <external-path name="app_temp" path=""/>
+    </paths>
+</resource>

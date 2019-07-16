@@ -1,1 +1,1 @@
-include ':arvis', ':sample'
+include ':arvis', ':sample', ':playground'

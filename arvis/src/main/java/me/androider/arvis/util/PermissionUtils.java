@@ -5,12 +5,12 @@ import android.app.Activity;
 import android.content.DialogInterface;
 import android.content.pm.PackageManager;
 import android.os.Build;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.ActivityCompat;
-import android.support.v4.content.ContextCompat;
-import android.support.v7.app.AlertDialog;
 
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AlertDialog;
+import androidx.core.app.ActivityCompat;
+import androidx.core.content.ContextCompat;
 import me.androider.arvis.dict.RequestCode;
 
 /**
@@ -80,8 +80,8 @@ public class PermissionUtils {
         if (object instanceof Activity) {
             ActivityCompat.requestPermissions((Activity) object, permissions,
                     RequestCode.REQUEST_PERMISSION);
-        } else if (object instanceof android.support.v4.app.Fragment) {
-            ((android.support.v4.app.Fragment) object).requestPermissions(permissions,
+        } else if (object instanceof androidx.fragment.app.Fragment) {
+            ((androidx.fragment.app.Fragment) object).requestPermissions(permissions,
                     RequestCode.REQUEST_PERMISSION);
         } else if (object instanceof android.app.Fragment) {
             ((android.app.Fragment) object).requestPermissions(permissions,
@@ -122,8 +122,8 @@ public class PermissionUtils {
     private Activity getActivity(@NonNull Object object) {
         if (object instanceof Activity) {
             return (Activity) object;
-        } else if (object instanceof android.support.v4.app.Fragment) {
-            return ((android.support.v4.app.Fragment) object).getActivity();
+        } else if (object instanceof androidx.fragment.app.Fragment) {
+            return ((androidx.fragment.app.Fragment) object).getActivity();
         } else if (object instanceof android.app.Fragment) {
             return ((android.app.Fragment) object).getActivity();
         } else {

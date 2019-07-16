@@ -2,11 +2,12 @@ package me.androider.arvis.util;
 
 import android.app.Activity;
 import android.app.Application;
-import android.support.annotation.NonNull;
 import android.util.Log;
 
 import java.util.List;
 import java.util.Map;
+
+import androidx.annotation.NonNull;
 
 /**
  * 工具类-类工具类
@@ -76,8 +77,8 @@ public class ClassUtils {
         if (contextObject instanceof Activity) {
             return (Activity)contextObject;
         }
-        if (contextObject instanceof android.support.v4.app.Fragment) {
-            return (android.support.v4.app.Fragment)contextObject;
+        if (contextObject instanceof androidx.fragment.app.Fragment) {
+            return (androidx.fragment.app.Fragment)contextObject;
         }
         if (contextObject instanceof android.app.Fragment) {
             return (android.app.Fragment)contextObject;
