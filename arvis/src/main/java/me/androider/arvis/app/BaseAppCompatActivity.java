@@ -1,6 +1,9 @@
 package me.androider.arvis.app;
 
 
+import android.os.Bundle;
+import android.os.PersistableBundle;
+
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
@@ -14,10 +17,16 @@ import me.androider.arvis.util.PermissionUtils;
  */
 public class BaseAppCompatActivity extends AppCompatActivity {
 
-    private static String TAG = BaseAppCompatActivity.class.getSimpleName();
+    protected String TAG;
 
     protected BaseAppCompatActivity bActivity;
 
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        TAG = this.getClass().getSimpleName();
+        bActivity = this;
+    }
 
     PermissionUtils bPermissionUtils;
 

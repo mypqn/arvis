@@ -1,6 +1,4 @@
 apply plugin: 'com.android.application'
-
-
 android {
     compileSdkVersion COMPILE_SDK_VERSION as int
 
@@ -37,3 +35,5 @@ android {
 
 }
 
+dependencies {
+}
