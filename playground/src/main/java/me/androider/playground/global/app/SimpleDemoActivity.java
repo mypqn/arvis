@@ -1,4 +1,4 @@
-package me.androider.playground.app;
+package me.androider.playground.global.app;
 
 import android.os.Bundle;
 import android.util.Log;

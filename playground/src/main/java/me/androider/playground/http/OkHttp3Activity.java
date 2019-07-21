@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 
 import androidx.annotation.Nullable;
 import me.androider.arvis.util.ToastUtils;
-import me.androider.playground.app.SimpleDemoActivity;
+import me.androider.playground.global.app.SimpleDemoActivity;
 import me.androider.playground.global.Constant;
 import okhttp3.Cache;
 import okhttp3.Call;

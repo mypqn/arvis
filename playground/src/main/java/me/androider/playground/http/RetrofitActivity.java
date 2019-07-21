@@ -7,7 +7,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import androidx.annotation.Nullable;
-import me.androider.playground.app.SimpleDemoActivity;
+import me.androider.playground.global.app.SimpleDemoActivity;
 import me.androider.playground.global.Constant;
 import me.androider.playground.http.helper.BriskWalkService;
 import me.androider.playground.http.helper.GankService;
