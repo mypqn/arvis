@@ -1,0 +1,201 @@
+-- Merging decision tree log ---
+provider#androidx.core.content.FileProvider
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:33:9-41:20
+	android:grantUriPermissions
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:37:13-47
+	android:authorities
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:35:13-64
+	android:exported
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:34:13-62
+manifest
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+MERGED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-18:12
+MERGED from [io.reactivex:rxandroid:1.2.1] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\2a6298b11a2147631457ddf1376de895\rxandroid-1.2.1\AndroidManifest.xml:15:1-21:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\68c29432fb53060aa44a5fbfb6b2220e\constraintlayout-2.0.0-beta2\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\0ac2617d568e85e47962f1d4302532c7\appcompat-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\fbc024d2333daf4f33e6989b92711fdc\fragment-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e5cf672f1427208335b75a5cee7bcf2f\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\65edb176d6e0e1f1e5c9ae01f756f23b\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\eccb13e461e21d7e1e03eccaccf2a01d\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\8f27e5348a3dcc7cd128e8ca9d4215ec\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e05ab556f2bbfbce34cb55d229811012\activity-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\25e7214be8371eb3c5b95b9eddc4304a\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\ccb3762f4a84fbae3336d83b7f523071\vectordrawable-1.1.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\0fd9360f8c384fa32df0f7dc379a5d4c\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\342d0d72940bfa6bb46e6fd204949f27\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\c4a8c0076334b99a1d1c9e45bddb7bd3\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\03570dbf295542367868526475fe1e63\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\6d2d9cbd163088050f34c37d482028d0\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e258ca872544344e57b72d5da385ec8a\savedstate-1.0.0-rc01\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\af151bdf7c0569081f47f874fe45b02a\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\9c59bc448d886c355d93973e7992c7e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\18ee52ffe84f036c36e0bc2aa576d72a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\bf8f2133c0e724a1561e29b6adf1a540\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+	package
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:3:5-38
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:1-44:12
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:5:5-42:19
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\68c29432fb53060aa44a5fbfb6b2220e\constraintlayout-2.0.0-beta2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\68c29432fb53060aa44a5fbfb6b2220e\constraintlayout-2.0.0-beta2\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\c4a8c0076334b99a1d1c9e45bddb7bd3\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\c4a8c0076334b99a1d1c9e45bddb7bd3\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:7:9-41
+	android:roundIcon
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:8:9-43
+	android:allowBackup
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:11:9-40
+	android:networkSecurityConfig
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:12:9-76
+activity#me.androider.playground.global.app.MainActivity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:13:9-19:20
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:13:19-58
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:14:13-18:29
+action#android.intent.action.MAIN
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:15:17-69
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:15:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:17:27-74
+activity#me.androider.playground.http.OkHttp2Activity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:21:9-67
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:21:19-55
+activity#me.androider.playground.http.OkHttp3Activity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:23:9-67
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:23:19-55
+activity#me.androider.playground.http.RetrofitActivity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:25:9-68
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:25:19-56
+activity#me.androider.playground.rxjava.RxJavaActivity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:27:9-68
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:27:19-56
+activity#me.androider.playground.rxjava.RxJava2Activity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:29:9-69
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:29:19-57
+activity#me.androider.playground.rxjava.RxJava3Activity
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:31:9-69
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:31:19-57
+uses-sdk
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+MERGED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [io.reactivex:rxandroid:1.2.1] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\2a6298b11a2147631457ddf1376de895\rxandroid-1.2.1\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.1] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\2a6298b11a2147631457ddf1376de895\rxandroid-1.2.1\AndroidManifest.xml:19:5-43
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\68c29432fb53060aa44a5fbfb6b2220e\constraintlayout-2.0.0-beta2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-beta2] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\68c29432fb53060aa44a5fbfb6b2220e\constraintlayout-2.0.0-beta2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\0ac2617d568e85e47962f1d4302532c7\appcompat-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\0ac2617d568e85e47962f1d4302532c7\appcompat-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\fbc024d2333daf4f33e6989b92711fdc\fragment-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\fbc024d2333daf4f33e6989b92711fdc\fragment-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e5cf672f1427208335b75a5cee7bcf2f\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e5cf672f1427208335b75a5cee7bcf2f\appcompat-resources-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\65edb176d6e0e1f1e5c9ae01f756f23b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\65edb176d6e0e1f1e5c9ae01f756f23b\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\eccb13e461e21d7e1e03eccaccf2a01d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\eccb13e461e21d7e1e03eccaccf2a01d\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\8f27e5348a3dcc7cd128e8ca9d4215ec\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\8f27e5348a3dcc7cd128e8ca9d4215ec\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e05ab556f2bbfbce34cb55d229811012\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e05ab556f2bbfbce34cb55d229811012\activity-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\25e7214be8371eb3c5b95b9eddc4304a\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\25e7214be8371eb3c5b95b9eddc4304a\vectordrawable-animated-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\ccb3762f4a84fbae3336d83b7f523071\vectordrawable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\ccb3762f4a84fbae3336d83b7f523071\vectordrawable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\0fd9360f8c384fa32df0f7dc379a5d4c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\0fd9360f8c384fa32df0f7dc379a5d4c\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\342d0d72940bfa6bb46e6fd204949f27\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\342d0d72940bfa6bb46e6fd204949f27\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\c4a8c0076334b99a1d1c9e45bddb7bd3\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\c4a8c0076334b99a1d1c9e45bddb7bd3\versionedparcelable-1.1.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\03570dbf295542367868526475fe1e63\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\03570dbf295542367868526475fe1e63\lifecycle-runtime-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\6d2d9cbd163088050f34c37d482028d0\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\6d2d9cbd163088050f34c37d482028d0\lifecycle-viewmodel-2.1.0-rc01\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e258ca872544344e57b72d5da385ec8a\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\e258ca872544344e57b72d5da385ec8a\savedstate-1.0.0-rc01\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\af151bdf7c0569081f47f874fe45b02a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\af151bdf7c0569081f47f874fe45b02a\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\9c59bc448d886c355d93973e7992c7e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\9c59bc448d886c355d93973e7992c7e5\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\18ee52ffe84f036c36e0bc2aa576d72a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\18ee52ffe84f036c36e0bc2aa576d72a\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\bf8f2133c0e724a1561e29b6adf1a540\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\bf8f2133c0e724a1561e29b6adf1a540\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+		INJECTED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:38:13-40:53
+	android:resource
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:40:17-51
+	android:name
+		ADDED from D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:39:17-67
+uses-permission#android.permission.INTERNET
+ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+	android:name
+		ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-78
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-83
+	android:name
+		ADDED from [:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-80

@@ -1,0 +1,96 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="me.androider.playground"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-67
+11-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+12-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:5-80
+12-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:22-77
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> <!-- 8.0以后安装需要权限 -->
+13-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-81
+13-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-78
+14    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+14-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:5-83
+14-->[:arvis] D:\Develop\Repository\GitHub\Arvis\arvis\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:22-80
+15
+16    <application
+16-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:5:5-42:19
+17        android:allowBackup="true"
+17-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.1.0-rc01] D:\Develop\Android\.gradle\caches\transforms-2\files-2.1\5a7ad710255f741dc4ec7edd8dddb3a7\core-1.1.0-rc01\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:8:9-43
+21        android:label="@string/app_name"
+21-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:7:9-41
+22        android:networkSecurityConfig="@xml/network_security_policy_config"
+22-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:12:9-76
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:9:9-54
+24        android:supportsRtl="true"
+24-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:10:9-35
+25        android:theme="@style/AppTheme" >
+25-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:11:9-40
+26        <activity android:name="me.androider.playground.global.app.MainActivity" >
+26-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:13:9-19:20
+26-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:13:19-58
+27            <intent-filter>
+27-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:14:13-18:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:15:17-69
+28-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:15:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:17:17-77
+30-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:17:27-74
+31            </intent-filter>
+32        </activity>
+33        <activity android:name="me.androider.playground.http.OkHttp2Activity" />
+33-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:21:9-67
+33-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:21:19-55
+34        <activity android:name="me.androider.playground.http.OkHttp3Activity" />
+34-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:23:9-67
+34-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:23:19-55
+35        <activity android:name="me.androider.playground.http.RetrofitActivity" />
+35-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:25:9-68
+35-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:25:19-56
+36        <activity android:name="me.androider.playground.rxjava.RxJavaActivity" />
+36-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:27:9-68
+36-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:27:19-56
+37        <activity android:name="me.androider.playground.rxjava.RxJava2Activity" />
+37-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:29:9-69
+37-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:29:19-57
+38        <activity android:name="me.androider.playground.rxjava.RxJava3Activity" />
+38-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:31:9-69
+38-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:31:19-57
+39
+40        <provider
+41            android:name="androidx.core.content.FileProvider"
+41-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:34:13-62
+42            android:authorities="me.androider.playground.fileProvider"
+42-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:35:13-64
+43            android:exported="false"
+43-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:36:13-37
+44            android:grantUriPermissions="true" >
+44-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:37:13-47
+45            <meta-data
+45-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:38:13-40:53
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:39:17-67
+47                android:resource="@xml/file_paths" />
+47-->D:\Develop\Repository\GitHub\Arvis\playground\src\main\AndroidManifest.xml:40:17-51
+48        </provider>
+49    </application>
+50
+51</manifest>
